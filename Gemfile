@@ -9,7 +9,8 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'nokogiri'
 gem 'geocoder'
-
+gem 'geokit'
+gem 'geokit-rails'
 
 group :development, :test do
   gem 'pry'
