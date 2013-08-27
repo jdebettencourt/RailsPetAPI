@@ -1,3 +1,12 @@
 class Pet < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :animal
+
+ def initialize
+
+ end
+
+
+
 end
+
+
