@@ -1,3 +1,4 @@
+ruby '1.9.3'
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
@@ -5,8 +6,15 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'pg'
+gem 'nokogiri'
+gem 'geocoder'
 
+
+group :development, :test do
+  gem 'pry'
+  gem 'pry-rails'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
