@@ -11,7 +11,9 @@ gem 'nokogiri'
 gem 'geocoder'
 gem 'geokit'
 gem 'geokit-rails'
-
+# gem 'PetSearch', :path => '~/code/project3/ruby_api/'
+gem 'PetSearch', :path => '~/Code/project3/ruby_api'
+gem 'htmlentities'
 group :development, :test do
   gem 'pry'
   gem 'pry-rails'
