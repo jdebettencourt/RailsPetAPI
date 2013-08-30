@@ -1,7 +1,8 @@
 PATH
-  remote: ~/Code/project3/ruby_api
+  remote: ~/code/project3/ruby_api/
   specs:
-    PetSearch (0.0.7.1)
+    PetSearch (0.0.7.7)
+      htmlentities
       nokogiri
 
 GEM

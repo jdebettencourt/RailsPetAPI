@@ -1,6 +1,5 @@
 class PetsController < ApplicationController
 
-  require 'Pet'
   respond_to :json
 
   before_filter :get_token
@@ -34,6 +33,7 @@ class PetsController < ApplicationController
     #http://localhost:3000/findpets/animal=dog&94123&breeds=vizla,pug&Young.json
     begin
       options = params[:options]
+
       @results = Pet.make_search(options)
       respond_with @results
     rescue NoMethodError
